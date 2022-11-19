@@ -1,0 +1,24 @@
+{
+  "model": {
+    "userVflag": 0,
+    "userImg": "",
+    "articleTitle": "",
+    "articleName": "作为生活方式的哲学",
+    "articleFm": "http://zdimg.lifeweek.com.cn/bg/20221115/1668493929698gaolr.jpg!pdPic",
+    "mediaTime": "08:49",
+    "imageAuthorName": "",
+    "mediaType": 1,
+    "userName": "yyy",
+    "courseSource": "三联数字刊·《三联生活周刊》2022年第47期",
+    "memberFlag": 1,
+    "authorName": "薛巍",
+    "articleDaodu": ""
+  },
+  "extraInfoMap": {},
+  "resultCodeBean": "SUCCESS",
+  "resultCode": "SUCCESS",
+  "resultMsg": "操作成功！",
+  "redirectUrl": null,
+  "success": true,
+  "pickParams": {}
+}
