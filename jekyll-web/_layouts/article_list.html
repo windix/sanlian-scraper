@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div>
+    <img src="{{page.pic_url}}">
+  </div>
+
+  <hr>
+
+  {%- for category in page.categories -%}
+  <h2 class="post-list-heading">{{ category.category }}</h2>
+  <ul class="post-list">
+    {%- for article in category.articles -%}
+    <li>
+      <span>
+        <img src="{{ article.pic_url }}">
+      </span>
+      <h3>
+        <span class="post-meta">{{ article.sub_category }}</span>
+        <a class="post-link" href="{{ article.url }}">
+          {{ article.title | escape }}
+        </a>
+      </h3>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endfor -%}
+</div>
